@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color:  #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -44,6 +44,64 @@ header {
     margin: 0 10px;
     text-decoration: none;
     color: #8B4513;
+}
+
+.lugares {
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+}
+
+.lugares .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.lugares h2 {
+    font-size: 60px; 
+    color: #fffafa;
+    margin-bottom: 60px; 
+    font-family: Garamond, serif;
+}
+
+.lugar {
+    background-color: #e4e2ddcb;
+    border-radius: 10px;
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: row;
+    padding: 30px; 
+    align-items: center;
+}
+
+.lugar img {
+    width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.descricao {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.descricao h3 {
+    font-size: 36px; 
+    color: #333;
+    margin-bottom: 20px; 
+    font-family: Garamond, serif;
+}
+
+.descricao p {
+    font-size: 24px; 
+    color: #666;
 }
 
 footer {
