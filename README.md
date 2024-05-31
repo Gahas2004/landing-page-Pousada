@@ -14,7 +14,7 @@ Esta é uma landing page para uma pousada encantadora localizada em Bariloche, A
 
 ## Acesse Aqui👇
 
--[Snowflake Lodge](https://gahas2004.github.io/landing-page-Pousada/QuemSomos.html)
+-[Snowflake Lodge](https://gahas2004.github.io/landing-page-Pousada/)
 
 ## Desenvolvedor
 
