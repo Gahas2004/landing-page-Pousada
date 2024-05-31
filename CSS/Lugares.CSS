@@ -7,15 +7,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #ffffff;
+    color: #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #dff4f7;
+    background-color:#E4E2DD;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +29,7 @@ header {
 .logo img {
     width: 80px;
     height: auto;
-    margin-right: 100px; 
+    margin-right: 100px;
 }
 
 .menu {
@@ -41,9 +40,21 @@ header {
     justify-content: center;
 }
 
-
 .menu a {
     margin: 0 10px;
     text-decoration: none;
-    color: #000000;
+    color: #8B4513;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #E4E2DD;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #8B4513;
 }
