@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color:#E4E2DD;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #8B4513;
+}
+
+.about {
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+}
+
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: Garamond, serif;
+}
+
+.about h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Garamond, serif;
+}
+
+.about p {
+    font-size: 25px;
+    color: #3e3e3e;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about .sobre {
+    background-color: #e4e2ddb7;
+    padding: 20px 0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about .Historia {
+    background-color: #e4e2ddb7;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about .Time {
+    background-color: #e4e2ddb7;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#E4E2DD;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #8B4513;
+}
